@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "EORCalculator - Global Employer of Record (EOR) True-Cost Sizer API",
+    "description": "Mandatory statutory contributions and currency exchange spread calculations API. Official production documentation hosted at https://site-15-ruby.vercel.app/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "EORCalculator Architecture Team",
+      "url": "https://site-15-ruby.vercel.app/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://site-15-ruby.vercel.app",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/eor-pricing": {
+      "get": {
+        "summary": "Calculate all-in monthly employer cost factoring statutory on-costs and FX fees",
+        "description": "Executes the empirical calculations and data models for EORCalculator.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://site-15-ruby.vercel.app/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
