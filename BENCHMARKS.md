@@ -15,3 +15,13 @@ True monthly cost comparisons across Deel, Remote.com, Oyster, and Multiplier in
 
 ---
 Maintained by [EORCalculator](https://site-15-ruby.vercel.app/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Deel Vs Remote Pricing Hidden Fees** | [https://site-15-ruby.vercel.app/deel-vs-remote-com-pricing-hidden-fees-breakdown/](https://site-15-ruby.vercel.app/deel-vs-remote-com-pricing-hidden-fees-breakdown/) |
+| **Contractor Vs Eor Misclassification Risk** | [https://site-15-ruby.vercel.app/contractor-vs-eor-legal-misclassification-risk-matrix/](https://site-15-ruby.vercel.app/contractor-vs-eor-legal-misclassification-risk-matrix/) |
+| **Deel Employer Taxes Calculator Poland** | [https://site-15-ruby.vercel.app/deel-poland-employer-taxes/](https://site-15-ruby.vercel.app/deel-poland-employer-taxes/) |
+| **Remote Com Fx Conversion Markup Spread** | [https://site-15-ruby.vercel.app/remote-com-fx-spread-audit/](https://site-15-ruby.vercel.app/remote-com-fx-spread-audit/) |
+
